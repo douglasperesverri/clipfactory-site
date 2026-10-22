@@ -35,6 +35,18 @@ YouTube channels.</p>
   <div class="card"><b>Checks</b><p>Reads the status of its own uploads to confirm each Short went public at the right
   time.</p></div>
 </div>
+<h2>Google account access</h2>
+<p>The owner connects each channel with Google sign-in (OAuth 2.0). ClipFactory asks for two permissions:</p>
+<ul>
+  <li><b>Upload YouTube videos</b> (<code>youtube.upload</code>): to upload each approved Short to the channel as private
+  with a scheduled publish time.</li>
+  <li><b>Manage your YouTube account</b> (<code>youtube</code>): to set the title, description, tags and publish time of
+  the tool's own uploads, read their status and the publish times already scheduled on the channel (so new Shorts do not
+  clash with them), read the channel's ID and title, and delete a draft left behind by a failed upload.</li>
+</ul>
+<p>ClipFactory's use and transfer of information received from Google APIs to any other app will adhere to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
 <h2>Contact</h2>
 <p>Douglas Peres Verri · <a href="mailto:douglas.peres@gmail.com">douglas.peres@gmail.com</a></p>
 </div></main>

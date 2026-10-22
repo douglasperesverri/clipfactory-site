@@ -17,6 +17,7 @@ p, li { color: #d4d4d8; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin-top: 26px; }
 .yt { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; }
 .badge { font-size: 13px; color: var(--text2); }
+code { font-size: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
 footer { border-top: 1px solid var(--line); padding: 26px 0; font-size: 14px; color: var(--text2); }
 footer a { color: var(--text2); }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
